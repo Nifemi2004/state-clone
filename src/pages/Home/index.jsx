@@ -240,7 +240,7 @@ const Home = () => {
           <div className="text-blue-400 text-[40px] ">Senator's Message</div>
           <div className="text-blue-900">
             <div className="pb-[20px] text-[17px]">
-              "Dear People of Kwara Central,
+              "Dear People of Osun Central,
             </div>
             <div className="pb-[20px] text-[17px]">
               I extend my heartfelt gratitude to each of you for your unwavering
@@ -252,14 +252,14 @@ const Home = () => {
             </div>
             <div className="pb-[20px] text-[17px]">
               As we continue this journey, let’s keep working hand in hand to
-              build a brighter, more prosperous Kwara Central. Our strength lies
+              build a brighter, more prosperous Osun Central. Our strength lies
               in our shared vision, and I am confident that, together, we will
               achieve even greater things."
             </div>
           </div>
           <div className="text-[17px] text-blue-900">
-            <span className="text-blue-400 text-l">– Saliu Mustapha,</span>{" "}
-            Kwara Central Senator
+            <span className="text-blue-400 text-l">– Saliu Mustapha,</span> Osun
+            Central Senator
           </div>
         </div>
         <div className="w-[100rem]">
@@ -378,7 +378,7 @@ const Home = () => {
           <div className="text-[50px]">
             <CountUp start={0} end={1.9} duration={1.5} suffix="M" />
           </div>
-          <div className="text-xl">Estimated Population of Kwara Central</div>
+          <div className="text-xl">Estimated Population of Osun Central</div>
         </div>
         <div className="w-[13rem]">
           <div className="flex items-center justify-center">
@@ -442,7 +442,7 @@ const Home = () => {
         </h3>
         <p className="text-white text-center ">
           Latest news, updates and stories on the activities of the Senator
-          representing Kwara Central Senatorial District, Mallam Saliu Mustapha
+          representing Osun Central Senatorial District, Mallam Saliu Mustapha
           and his team.
         </p>
 
@@ -464,7 +464,7 @@ const Home = () => {
           This gallery showcases his work in the Senate—debating bills,
           sponsoring motions, attending plenary sessions, participating in key
           Senate sessions and engaging with policymakers—all focused on
-          representing Kwara Central and driving national progress.
+          representing Osun Central and driving national progress.
         </p>
         <div>
           <ImageGallery />

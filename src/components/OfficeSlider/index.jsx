@@ -5,31 +5,31 @@ const offices = [
   {
     title: "Headquarter",
     address: "01, Basin Road off Fate Roundabout, Ilorin",
-    email: "contact@kwaracentral.org",
+    email: "contact@osuncentral.org",
     phone: "0706 576 4513",
   },
   {
     title: "Asa Constituency Office",
     address: "Water Side Area along Ogele, Eyenkorin",
-    email: "contact@kwaracentral.org",
+    email: "contact@osuncentral.org",
     phone: "0803 377 7063",
   },
   {
     title: "Ilorin East Constituency Office",
     address: "08, Sokoto Road Sabo Oke, Ilorin",
-    email: "contact@kwaracentral.org",
+    email: "contact@osuncentral.org",
     phone: "0813 358 5989",
   },
   {
     title: "Asa Constituency Office",
     address: "Water Side Area along Ogele, Eyenkorin",
-    email: "contact@kwaracentral.org",
+    email: "contact@osuncentral.org",
     phone: "0803 377 7063",
   },
   {
     title: "Ilorin East Constituency Office",
     address: "08, Sokoto Road Sabo Oke, Ilorin",
-    email: "contact@kwaracentral.org",
+    email: "contact@osuncentral.org",
     phone: "0813 358 5989",
   },
 ];

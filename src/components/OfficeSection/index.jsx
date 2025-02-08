@@ -2,14 +2,13 @@ import React from "react";
 import { FaClock, FaEnvelope, FaPhone } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-
 const OfficeSection = () => {
   return (
     <div className="bg-blue-900 text-white">
       <div className="mx-auto flex flex-col lg:flex-row">
         <div className="flex-1 flex flex-col items-center justify-center bg-[#1A2555]">
           <h2 className="text-2xl font-bold mb-4">
-            Kwara Central Senatorial Office
+            Osun Central Senatorial Office
           </h2>
           <span>1, Basin Road off Fate Roundabout, Ilorin</span>
           <div className="mt-4 space-y-2 text-center">
@@ -31,7 +30,7 @@ const OfficeSection = () => {
               <span className="text-teal-400">
                 <FaEnvelope />
               </span>
-              <span>Email: contact@kwaracentral.org</span>
+              <span>Email: contact@osuncentral.org</span>
             </div>
           </div>
         </div>
