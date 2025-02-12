@@ -62,7 +62,7 @@ const OfficeSlider = () => {
   };
 
   return (
-    <div className="max-w-md md:max-w-2xl lg:max-w-6xl mx-auto p-4 md:p-6">
+    <div className="max-w-sm md:max-w-2xl lg:max-w-6xl mx-auto p-4 md:p-6">
       <Slider {...settings}>
         {offices.map((office, index) => (
           <div key={index} className="px-2 md:px-4">
