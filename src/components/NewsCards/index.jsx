@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const NewsCard = ({ data }) => {
   return (
-    <div className="w-[35rem] bg-white text-white shadow-lg  overflow-hidden ">
+    <div className=" xl:w-[35rem] bg-white text-white shadow-lg  overflow-hidden ">
       {/* Image */}
       <img src={data.image} alt={data.title} className="w-full object-cover" />
 

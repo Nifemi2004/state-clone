@@ -189,35 +189,37 @@ const Home = () => {
         }}
       >
         <Header />
-        <div className="flex items-center justify-center h-[65%]">
-          <h1 className="text-white text-4xl md:text-8xl font-bold text-center p-4 w-[85vw]">
+        <div className="flex items-center justify-center h-[100%]">
+          <h1 className="text-white text-6xl md:text-7xl font-bold text-center p-4 w-[85vw]">
             The Most Exciting District To Live, Work, Visit and Invest In.
           </h1>
         </div>
       </div>
       <div
-        className="flex items-center justify-center px-[12.875rem] py-[3rem] bg-blue-950"
+        className="flex flex-col lg:flex-row items-center justify-center px-5 xl:px-[12.875rem] py-[3rem] bg-blue-950"
         style={{
           backgroundImage: `url(/pattern.png)`,
           backgroundSize: "cover",
         }}
       >
-        <div className="text-left w-[100%] pl-[50px]">
-          <div className="text-7xl text-blue-400 font-bold">Osun Central</div>
+        <div className="text-left w-full text-center lg:w-1/2 lg:pl-10">
+          <div className="text-5xl md:text-7xl text-blue-400 font-bold">
+            Osun Central
+          </div>
           <div>
-            <p className="pt-[2rem] leading-7 text-xl w-[95%] text-white text-justify">
+            <p className="pt-6 md:pt-[2rem] leading-7 text-lg md:text-xl text-white text-justify">
               Osun Central is one of the three senatorial districts in Osun
               State, located in Southwestern Nigeria. Known for its vibrant
               blend of urban and semi-urban areas, Osun Central covers six Local
               Government Areas: Osogbo, Olorunda, Ifelodun, Boripe, Odo-Otin,
               and Ila.
             </p>
-            <p className="pt-[2rem] leading-7 text-xl w-[95%] text-white text-justify">
+            <p className="pt-6 md:pt-[2rem] leading-7 text-lg md:text-xl text-white text-justify">
               Home to a peaceful and enterprising population, Osun Central is
               inhabited by people from diverse cultural backgrounds, primarily
               Yoruba, along with Hausa, Fulani, Igbo, and other ethnicities.
             </p>
-            <p className="py-[2rem] leading-7 text-xl w-[95%] text-white text-justify">
+            <p className="py-6 md:py-[2rem] leading-7 text-lg md:text-xl text-white text-justify">
               Osun Central has seen steady growth in its industrial sector,
               particularly in industries such as textiles, food processing, and
               agriculture. This economic development is further supported by the
@@ -226,16 +228,20 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <button className="px-[25px] py-[7px] bg-blue-400">
+            <button className="px-6 py-2 bg-blue-400">
               <span className="text-white text-lg">Read More</span>
             </button>
           </div>
         </div>
-        <div>
-          <img src="/Placeholder.jpg" alt="" className="w-[150%] " />
+        <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center">
+          <img
+            src="/Placeholder.jpg"
+            alt=""
+            className="w-full max-w-sm md:max-w-lg"
+          />
         </div>
       </div>
-      <div className="flex gap-7 px-[13rem] py-[6rem]">
+      <div className="flex flex-wrap xl:flex-nowrap lg:text-left  gap-7 text-center px-9 xl:px-[13rem] py-[6rem]">
         <div className="w-[110rem] flex flex-col gap-[2rem]">
           <div className="text-blue-400 text-[40px] ">Senator's Message</div>
           <div className="text-blue-900">
@@ -262,10 +268,10 @@ const Home = () => {
             Central Senator
           </div>
         </div>
-        <div className="w-[100rem]">
+        <div className="w-[20rem] xl:w-[100rem]">
           <img src="/senator.jpg" alt="Senator" />
         </div>
-        <div className="w-[110rem] gap-[2rem]">
+        <div className="md:w-[20rem] lg:w-[110rem] lg:text-left gap-[2rem]">
           <div className="text-blue-400 text-[40px]">
             Parliamentary Function
           </div>
@@ -366,7 +372,7 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="flex gap-20 items-center justify-center px-[13rem] py-[6rem] text-center text-white"
+        className="flex flex-col md:flex-row gap-20 items-center justify-center xl:px-[13rem] py-[6rem] text-center text-white"
         style={{
           backgroundImage: `url(/bg_couter-1.jpg)`,
         }}
@@ -432,21 +438,21 @@ const Home = () => {
         </div>
 
         {/* H.E.A.D.S */}
-        <h3 className="text-[4.5rem] font-extrabold text-blue-900 mt-16 tracking-widest">
+        <h3 className="hidden lg:block text-[4.5rem] font-extrabold text-blue-900 mt-16 tracking-widest">
           H.E.A.D.S
         </h3>
       </div>
-      <div className="bg-[#07173b] px-[11rem] pb-10 flex flex-col items-center">
+      <div className="bg-[#07173b] xl:px-[11rem] pb-10 flex flex-col items-center">
         <h3 className="text-blue-400 text-[40px] font-semibold text-center">
           News & Updates
         </h3>
-        <p className="text-white text-center ">
+        <p className="text-white text-center w-[70vw]">
           Latest news, updates and stories on the activities of the Senator
           representing Osun Central Senatorial District, Mallam Saliu Mustapha
           and his team.
         </p>
 
-        <div className="container mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="container xl:mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10">
           {cards.map((card) => (
             <NewsCard key={card.id} data={card} />
           ))}
@@ -455,7 +461,7 @@ const Home = () => {
           More News
         </div>
       </div>
-      <div className="bg-white px-[11rem] flex flex-col items-center pb-[3rem]">
+      <div className="bg-white xl:px-[11rem] flex flex-col items-center pb-[3rem]">
         <h3 className="text-blue-900 text-[40px] font-semibold text-center">
           Gallery
         </h3>
@@ -473,7 +479,7 @@ const Home = () => {
           View More
         </div>
 
-        <div className="mt-[4rem] flex gap-[10rem]">
+        <div className="mt-[4rem] flex flex-col lg:flex-row gap-[3rem]  xl:gap-[10rem]">
           <img src="./Shot1.png" alt="shot 1" />
           <img src="./Shot2.png" alt="shot 2" />
         </div>
@@ -486,7 +492,7 @@ const Home = () => {
           <OfficeSlider />
         </div>
       </div>
-      <div className="bg-white px-[10rem] flex items-center py-[2rem]">
+      <div className="bg-white px-[10rem] flex flex-wrap items-center py-[2rem]">
         <img src="./Coat_of_arms_of_Nigeria.png" alt="" className="w-[15rem]" />
         <img src="./national_assembly.png" alt="" className="w-[15rem]" />
         <img

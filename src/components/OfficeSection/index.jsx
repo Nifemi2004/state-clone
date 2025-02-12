@@ -36,7 +36,7 @@ const OfficeSection = () => {
         </div>
 
         {/* Quick Links Section */}
-        <div className="flex gap-[20rem] bg-[#202B5D] p-3 items-center justify-center">
+        <div className="flex flex-col gap-[3rem] align-center lg:flex-row xl:gap-[20rem] bg-[#202B5D] p-3 items-center justify-center">
           <div className="flex-1">
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">

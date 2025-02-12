@@ -41,33 +41,35 @@ const OfficeSlider = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 2000, // Set autoplay speed to 3 seconds
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1024, // Large tablets and small desktops
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 768, // Tablets
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-5">
+    <div className="max-w-md md:max-w-2xl lg:max-w-6xl mx-auto p-4 md:p-6">
       <Slider {...settings}>
         {offices.map((office, index) => (
-          <div key={index} className="px-4">
+          <div key={index} className="px-2 md:px-4">
             {" "}
-            {/* Increased padding for more gap */}
-            <div className="bg-white p-10 text-left">
-              <h3 className="bg-blue-400 text-white text-lg font-semibold px-2 py-2 inline-block">
+            {/* Reduced padding on small screens */}
+            <div className="bg-white p-6 md:p-8 lg:p-10 rounded-lg shadow-md text-left">
+              <h3 className="bg-blue-400 text-white text-lg font-semibold px-3 py-2 inline-block">
                 {office.title}
               </h3>
               <p className="mt-4 text-gray-700">{office.address}</p>

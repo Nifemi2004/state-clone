@@ -109,7 +109,7 @@ const ImageGallery = () => {
           <button
             key={category}
             onClick={() => setActiveCategory(category)}
-            className={`px-4 py-2 duration-200 
+            className={`lg:px-4 py-2 duration-200 
               ${
                 activeCategory === category
                   ? " text-blue-900 font-bold"
